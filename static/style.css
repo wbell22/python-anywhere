@@ -1,0 +1,137 @@
+<style type="text/css">
+    html,
+    body {
+      font: 100% Helvetica, Arial, sans-serif;
+      color: white;
+      font-family: consolas;
+      height: 100%;
+      margin: 0;
+      padding: 0;
+      background-image: "files/bg.jpg";
+      background-repeat: repeat;
+    }
+
+    a:hover {
+      color: white;
+      background-color: transparent;
+    }
+
+    a:active {
+      color: lightgrey;
+      background-color: transparent;
+    }
+
+    a {
+      color: #d6b6b6;
+    }
+  
+    em {
+     color:#966f66; 
+    }
+    
+    h1 {
+      font-size: 20px;
+      border: 1px solid white;
+      background-color: #473F3D;
+      display: inline-block;
+      padding: 10px;
+    }
+    h2 {
+      font-size: 34px;
+    }
+    
+    h3 {
+     font-size: 20px 
+    }
+
+    mark {
+     background-color:black;
+     color:white;
+    }
+    .title {
+      font-size: 15px;
+      color: white;
+      border: 1px solid white;
+      display: inline-block;
+      background-color: #473F3D;
+      padding:5px;
+    }
+    .article {
+     border:1px solid white;
+     padding:5px;
+     background-color:#473F3D;
+     float:center;
+    }
+    
+    
+    .wrapper {
+      display: flex;
+      flex-direction: column;
+      min-height: 100vh;
+    }
+
+    .header {
+      text-align: left;
+      padding: 10px;
+      font: 30px;
+
+    }
+    
+    .doomclock{
+     text-align:right;
+     
+    }
+
+    .middle {
+      display: flex;
+      flex-direction: row;
+      flex: 1;
+    }
+
+    #content {
+      width: 75%;
+      padding: 20px;
+    }
+
+   .sidebar {
+      border: 1px solid white;
+      background-color: #473F3D;
+      width: 25%;
+      padding: 10px;
+      font-size:18px;
+      height:50%;
+      display: inline-block;
+
+    }
+
+    .post_content {
+      margin-bottom: 20px;
+    }
+
+    .images {
+      display: flex;
+      justify-content: left;
+      align-items: left;
+    }
+
+    .images img {
+      margin: 10px;
+    }
+
+    
+    .plainlink {
+      text-decoration: none;
+      color: white;
+    }
+
+    .le-button {
+      text-decoration: none;
+      background-color: black;
+    }
+    
+    .le-button:hover {
+      text-decoration: none;
+      background-image: url(digirain.gif);
+    }
+    
+  </style>
